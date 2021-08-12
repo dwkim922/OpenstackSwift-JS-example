@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+    <script type="text/javascript" src="doUpload.js"></script> 
+    <script type="text/javascript" src="doDownload.js"></script> 
+    <script type="text/javascript" src="doVisitURL.js"></script> 
+
+    <input type="file" name="file" id="file" accept="image/*"> <br>
+    <button onclick="javascript:doUpload()" name="submit">Upload File</button> <br> <br>
+    <img src="" id="displayImage" width="100" height="150"> <br><br>
+    <button id="downloadButton" onclick="javascript:doDownload()" name="download" disabled=true>Download File</button> <br>
+    <button id="visitURLButton" onclick="javascript:doVisitURL()" name="visitURL" disabled=true>Visit URL</button>
+</body>
+</html>
