@@ -13,7 +13,7 @@ function doRegenToken(){
           console.log(xhr.responseText);
        }};
 
-       var data = '{"user":"dwkim_admin","password":"rla95SLZHF!@","account":"zios_admin"}';
+       var data = '{"user":"<username>","password":"<password>","account":"<account>"}';
 
     xhr.send(data);
 }
