@@ -1,6 +1,6 @@
 //pubURL 및 token값 기입 부탁드립니다
-var pubURL = "https://vsa-00000004-kt-object-01.zadarazios.com/v1/AUTH_be6c442ae636456f938fcb63ec43e6d1/javascript/"
-var token = "gAAAAABhIS4D47ghOImDxNtInxW-1CAe8RK2cq-7UGBY3YtV3RUHUMBrLBnr8VmDJlwoNRHHuPWCSwp37Tru6QMYgFt57WNLhxiFkkGu6tqXkHkd1oF6BqbggiE_tyJvot5_bSKh-Z97TP_-GAz2-Bg6QQ0kCDjbR5xRFxza0c7IxK2frpTD240"
+var pubURL = "https://vsa-000213123-zadarazios.com/v1/AUTH_be6c442ae636456f938fcb63ec43e6d1/javascriptBUCKET/"
+var token = "토큰값"
 
 //이미지 업로드 [PUT] 
 function doUpload() {
