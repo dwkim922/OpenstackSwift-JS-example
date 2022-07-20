@@ -1,4 +1,7 @@
 function doDownload(){
+
+   var pubURL = document.getElementById("userURL").value;
+   var token = document.getElementById("userToken").value;
     //Content-Disposition -> Attatchment
     var downloadurl = url;
 
