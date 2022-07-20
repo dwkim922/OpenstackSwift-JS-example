@@ -1,10 +1,9 @@
-//pubURL 및 token값 기입 부탁드립니다
-var pubURL = "https://vsa-000213123-zadarazios.com/v1/AUTH_be6c442ae636456f938fcb63ec43e6d1/javascriptBUCKET/"
-var token = "토큰값"
 
 //이미지 업로드 [PUT] 
 function doUpload() {
-    
+    var pubURL = document.getElementById("userURL").value;
+    var token = document.getElementById("userToken").value;
+
     
     //파일명 확인
     var targetFile = document.getElementById("file").files[0];
