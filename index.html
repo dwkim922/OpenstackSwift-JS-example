@@ -6,18 +6,25 @@
     <script type="text/javascript" src="doUpload.js"></script> 
     <script type="text/javascript" src="doDownload.js"></script> 
     <script type="text/javascript" src="doVisitURL.js"></script> 
-
     <script type="text/javascript" src="doRegenToken.js"></script>
     <script type="text/javascript" src="doRegenToken2.js"></script>
-
+    
+    <input type="text" id="userURL" placeholder="PublicURL+Bucket" /> <br>
+    <input type="text" id="userToken" placeholder="Token" /> <br>
     <input type="file" name="file" id="file" accept="image/*"> <br>
     <button onclick="javascript:doUpload()" name="submit">Upload File</button> <br> <br>
-    <img src="" id="displayImage" width="100" height="150"> <br><br>
+    <img src="" id="displayImage" width="300" height="300"> <br><br>
     <button id="downloadButton" onclick="javascript:doDownload()" name="download" disabled=true>Download File</button> <br>
     <button id="visitURLButton" onclick="javascript:doVisitURL()" name="visitURL" disabled=true>Visit URL</button> <br><br>
 
+    
+<!--
+    <input type="text" id="userAccount" placeholder="Account" /> <br>
+    <input type="text" id="userUsername" placeholder="Username" /> <br>
+    <input type="password" id="userPassword" placeholder="Password" /> <br>
     <button id="regenTokenButton" onclick="javascript:doRegenToken()" name="regenToken">Regenerate Token</button>
     <button id="regenTokenButton2" onclick="javascript:doRegenToken2()" name="regenToken2">Regenerate Token2</button>
+-->
 
 </body>
 </html>
